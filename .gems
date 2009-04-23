@@ -1,0 +1,2 @@
+integrity --version 0.1.9.3 -s gems.github.com -s gems.rubyforge.org
+foca-integrity-email -s gems.github.com -s gems.rubyforge.org
