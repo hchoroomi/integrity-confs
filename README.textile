@@ -1,11 +1,10 @@
 h3. Instructions 
 
-<pre><code>
-$ sudo gem install heroku
+<pre><code>$ sudo gem install heroku
 $ git clone git://github.com/hchoroomi/integrity-confs.git
 $ cd integrity-confs
-$ # Update YOUR_APP_NAME, username and password in integrity-config.rb
-$ # Generate an SSH key pairs, put public key in Unfuddle and private key into ssh_pkey file
+# Update YOUR_APP_NAME, username and password in integrity-config.rb
+# Generate an SSH key pairs, put public key in Unfuddle and private key into ssh_pkey file
 $ heroku create YOUR_APP_NAME
 $ git push heroku master
 </code></pre>
