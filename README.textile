@@ -1,6 +1,6 @@
 h3. Instructions 
 
-<code>
+<pre><code>
 $ sudo gem install heroku
 $ git clone git://github.com/hchoroomi/integrity-confs.git
 $ cd integrity-confs
@@ -8,6 +8,6 @@ $ # Update YOUR_APP_NAME, username and password in integrity-config.rb
 $ # Generate an SSH key pairs, put public key in Unfuddle and private key into ssh_pkey file
 $ heroku create YOUR_APP_NAME
 $ git push heroku master
-</code>
+</code></pre>
 
 Go to http:://YOUR_APP_NAME.heroku.com and add your first project and stay green!
